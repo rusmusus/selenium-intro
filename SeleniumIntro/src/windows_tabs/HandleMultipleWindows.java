@@ -10,7 +10,7 @@ public class HandleMultipleWindows {
 
 	@Test
 	public void handleWindow() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumWebDriver\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/rusmusus/Documents/Libraries/drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
@@ -35,6 +35,7 @@ public class HandleMultipleWindows {
 
 		driver.switchTo().window(parent);
 		System.out.println("Parent window title is " + driver.getTitle());
+		driver.close();
 	}
 
 }
