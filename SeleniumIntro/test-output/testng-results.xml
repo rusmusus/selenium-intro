@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12186" started-at="2018-04-16T23:24:48Z" finished-at="2018-04-16T23:25:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12186" started-at="2018-04-16T23:24:48Z" finished-at="2018-04-16T23:25:00Z">
+      <class name="windows_tabs.HandleWindows">
+        <test-method status="PASS" signature="handleWindow()[pri:0, instance:windows_tabs.HandleWindows@68be2bc2]" name="handleWindow" duration-ms="12123" started-at="2018-04-16T23:24:48Z" finished-at="2018-04-16T23:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleWindow -->
+      </class> <!-- windows_tabs.HandleWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
